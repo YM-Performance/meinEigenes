@@ -1,7 +1,12 @@
-package main
+package testPkg
 
-import "fmt"
+const Const1 = "Hallo ich bin Importet"
+const const2 = "Hallo privat"
 
-func main() {
-fmt.Println("Hallo ich bin von GITLAB")
-}
+var Var1 = "Hallo ich bin importet"
+var var2 = "hallo privat"
+
+func SayHallo()string{return "FU erwischt!"}
+func sayHallo2()string{return "Daneben!"}
+
+
