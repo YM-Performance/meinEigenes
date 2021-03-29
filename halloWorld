@@ -1,10 +1,10 @@
 package meinEigenes
 
-const Const1 = "Hallo ich bin Importet"
-const const2 = "Hallo privat"
+const Const1 := "Hallo ich bin Importet"
+const const2 := "Hallo privat"
 
-var Var1 = "Hallo ich bin importet"
-var var2 = "hallo privat"
+var Var1 := "Hallo ich bin importet"
+var var2 := "hallo privat"
 
 func SayHallo()string{return "FU erwischt!"}
 func sayHallo2()string{return "Daneben!"}
