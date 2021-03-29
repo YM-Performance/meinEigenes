@@ -1,4 +1,4 @@
-package testPkg
+package meinEigenes
 
 const Const1 = "Hallo ich bin Importet"
 const const2 = "Hallo privat"
